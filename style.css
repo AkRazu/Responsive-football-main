@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ------------------------------
+    copa-america-section start
+-------------------------------- */
+.copa-america-section {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 102px;
+  padding-top: 150px;
+  padding-bottom: 86px;
+}
+.copa-america-section-text {
+  width: 485px;
+  height: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copa-america-section-text h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 80px;
+}
+.copa-america-text {
+  display: flex;
+}
+.watch-live-button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 27px;
+}
+.watch-live-button a {
+  background-color: #e02c6d;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 24px 10px 24px;
+}
+.watch-live-button  i{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.watch-live-button a:hover{
+    background-color: #c42861;
+}
+.watch-live-button i {
+  color: #fff;
+}
+.copa-america-image-section img {
+  width: 556.01px;
+  height: 438px;
+  transition: transform 2s;
+  
+}
+.copa-america-image-section img:hover{
+    transform: translate(20px ,-20px);
+}
+
+/* ------------------------------
+    copa-america-section end
+-------------------------------- */
