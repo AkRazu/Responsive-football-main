@@ -46,13 +46,13 @@ body {
   font-size: 1rem;
   padding: 10px 24px 10px 24px;
 }
-.watch-live-button  i{
-    width: 24px;
-    height: 24px;
-    margin-left: 8px;
+.watch-live-button i {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
 }
-.watch-live-button a:hover{
-    background-color: #c42861;
+.watch-live-button a:hover {
+  background-color: #c42861;
 }
 .watch-live-button i {
   color: #fff;
@@ -61,56 +61,122 @@ body {
   width: 556.01px;
   height: 438px;
   transition: transform 2s;
-  
 }
-.copa-america-image-section img:hover{
-    transform: translate(20px ,-20px);
+.copa-america-image-section img:hover {
+  transform: translate(20px, -20px);
 }
 
 /* ------------------------------
     copa-america-section end
 -------------------------------- */
-.total-player{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
+
+/* ------------------------------
+    Player section start
+-------------------------------- */
+.total-player {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
-.player-section{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
-    
+.player-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
 }
-.player-box-img{
-    display: flex;
-    justify-content: center;
+.player-box-img {
+  display: flex;
+  justify-content: center;
 }
 
-.player-box-img img{
-    width: 100%;
-    height: 256px;
+.player-box-img img {
+  width: 100%;
+  height: 256px;
 }
-.player-box{
-    width: 330px;
-    height: auto;
-    padding: 15px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 25px -13px rgba(0,0,0,0.31);
+.player-box {
+  width: 330px;
+  height: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px -13px rgba(0, 0, 0, 0.31);
 }
 .player-box-text {
-    margin-top: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.player-box-text h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #18191f;
+}
+.player-box-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+/* ------------------------------
+    Player section end
+-------------------------------- */
+
+/* ------------------------------
+    highlight section start
+-------------------------------- */
+.heghlight{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
-.player-box-text h2{
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: #18191F;;
+.highlight-section {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 165px;
 }
-.player-box-text p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #6C6C6C;
+
+.highlight-section-text {
+  width: 469px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.highlight-section-text h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  font-weight: 700;
+  color: #0a0826;
+  margin-bottom: 8px;
+}
+.highlight-section-text p {
+  width: 404px;
+  font-size: 1rem;
+  line-height: 28px;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin-bottom: 24px;
+}
+
+.highlight-section a {
+  background-color: #e02c6d;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 24px 10px 24px;
+}
+.highlight-sectionn i {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+.highlight-section a:hover {
+  background-color: #c42861;
+}
+.highlight-section i {
+  color: #fff;
+}
+
+.highlight-section-img img {
+  width: 567px;
+  height: 427px;
 }
