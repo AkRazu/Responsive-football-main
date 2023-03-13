@@ -1,0 +1,471 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+.top-header {
+  background-color: #2d25a0;
+  height: 677px;
+}
+
+/* ----------nav bar start ---------- */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 42px;
+  padding-bottom: 49px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 36px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.link-button {
+  padding: 10px 24px 10px 24px;
+  background: #e02c6d;
+}
+.link-button:hover {
+  background-color: #c42861;
+}
+.fa-solid {
+  margin-right: 8px;
+}
+/* ------------------------------
+    copa-america-section start
+-------------------------------- */
+.top-banner {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+div {
+  display: block;
+}
+.top-banner h1 {
+  width: 485px;
+  margin-top: 0px;
+  color: #fff;
+}
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+
+.top-banner img {
+  width: 556.01px;
+  height: 438px;
+  transition: transform 2s;
+}
+.top-banner img:hover {
+  transform: translate(20px, -10px);
+}
+.link-button {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: #fff;
+}
+/* ------------------------------
+    copa-america-section end
+-------------------------------- */
+
+/* ------------------------------
+    Player section start
+-------------------------------- */
+.total-player {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.player-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+}
+.player-box-img {
+  display: flex;
+  justify-content: center;
+}
+
+.player-box-img img {
+  width: 100%;
+  height: 256px;
+}
+.player-box {
+  width: 330px;
+  height: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25px -13px rgba(0, 0, 0, 0.31);
+}
+.player-box-text {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.player-box-text h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #18191f;
+}
+.player-box-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+/* ------------------------------
+    Player section end
+-------------------------------- */
+
+/* ------------------------------
+    highlight section start
+-------------------------------- */
+.heghlight {
+  display: flex;
+  justify-content: center;
+}
+.highlight-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 165px 50px 168px 50px;
+}
+.highlight-section-text {
+  width: 469px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.highlight-section-text h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  font-weight: 700;
+  color: #0a0826;
+  margin-bottom: 8px;
+}
+.highlight-section-text p {
+  width: 404px;
+  font-size: 1rem;
+  line-height: 28px;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin-bottom: 24px;
+}
+
+.highlight-section a {
+  background-color: #e02c6d;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 24px 10px 24px;
+}
+.highlight-sectionn i {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+.highlight-section a:hover {
+  background-color: #c42861;
+}
+.highlight-section i {
+  color: #fff;
+}
+
+.highlight-section-img img {
+  width: 567px;
+  height: 427px;
+}
+
+/* ------------------------------
+    highlight section end
+-------------------------------- */
+.football-updates {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-top: 165px;
+}
+.updates-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.updates-image img {
+  width: 567px;
+  height: 427px;
+}
+.updates-text h2 {
+  font-size: 48px;
+  line-height: 60px;
+  width: 469px;
+  height: 102px;
+}
+.updates-text p {
+  width: 404px;
+  height: 113px;
+  margin-bottom: 24px;
+  margin-top: 18px;
+  line-height: 28px;
+}
+.link-button {
+  width: 120px;
+}
+/* ------------------------------
+    footer section start
+-------------------------------- */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 158px;
+}
+
+.footer-logo img {
+  width: 484px;
+  height: 110px;
+}
+.footer-social-icon {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-social-icon i {
+  width: 32px;
+  height: 32px;
+  background-color: #e7e7e8;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #969bab;
+}
+
+/* ------------------------------
+    footer section end
+-------------------------------- */
+/* Mobile phone device */
+
+@media only screen and (max-width: 688px) {
+  nav {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .top-header {
+    width: 100%;
+    height: 695px;
+  }
+  .top-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  /* -----------------------
+  Top Header Styles Start
+  --------------------------*/
+  .top-header {
+    width: 100%;
+    height: 500px;
+  }
+  .top-header {
+    width: 100%;
+    height: 695px;
+  }
+  nav {
+    padding-top: 33px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+  }
+  .nav-links {
+    display: none;
+  }
+  nav .link-button {
+    padding: 7.47253px 17.9341px;
+    margin-right: 0px;
+  }
+  .top-banner-text h1 {
+    width: 278px;
+    height: 138px;
+    margin-bottom: 57px;
+    margin-top: 46px;
+  }
+  .top-banner-text a {
+    width: 168px;
+    height: 100%;
+  }
+  .top-banner-image img {
+    width: 329px;
+    height: 259.17px;
+    margin-top: 50px;
+  }
+
+  /* --player--- */
+
+  .player-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .player-box-text {
+    margin: 16px 15px;
+  }
+  .highlight-section-button {
+    margin-bottom: 29px;
+  }
+
+  .highlight-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+  }
+  .highlight-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .highlight-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 329px;
+  }
+  .highlight-section-text h1 {
+    width: 294px;
+    height: 80px;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .highlight-section-text {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .highlight-section-text p {
+    width: 329px;
+  }
+  .highlight-section-img {
+    display: flex;
+    justify-content: center;
+  }
+  .highlight-section-img img {
+    width: 328px;
+    height: 248px;
+  }
+}
+
+/* -----------------------
+    Media query start
+-------------------------- */
+@media (min-width: 689px) and (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  /* -----------------------
+  Top Header Styles Start
+  --------------------------*/
+  .top-header {
+    width: 100%;
+    height: 500px;
+  }
+  .top-banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .top-banner-text h1 {
+    width: 278px;
+    height: 138px;
+    margin-bottom: 57px;
+    margin-top: 46px;
+  }
+  .top-banner-text a {
+    width: 168px;
+    height: 100%;
+  }
+  .top-banner-image img {
+    margin-top: 50px;
+    width: 329px;
+    height: 259.17px;
+  }
+
+  /* --player--- */
+  .player-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .highlight-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .football-updates {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 60px;
+  }
+  .updates-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  .updates-text h2 {
+    width: 294px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .updates-text p {
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .updates-image img {
+    width: 328px;
+    height: 248px;
+    position: relative;
+  }
+
+  .footer-logo img{
+    width: 271px;
+    height: 63px;
+  }
+}
